@@ -9,9 +9,9 @@ var Alexa = require('alexa-sdk');
 //Make sure to enclose your value in quotes, like this: var APP_ID = "amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1";
 var APP_ID = undefined;
 
-var SKILL_NAME = "Space Facts";
-var GET_FACT_MESSAGE = "Here's your fact: ";
-var HELP_MESSAGE = "You can say tell me a space fact, or, you can say exit... What can I help you with?";
+var SKILL_NAME = "Morrison Trivia";              
+var GET_FACT_MESSAGE = "Did you know?: ";
+var HELP_MESSAGE = "You can say tell me a Morrison fact, or, you can say exit... What can I help you with?";
 var HELP_REPROMPT = "What can I help you with?";
 var STOP_MESSAGE = "Goodbye!";
 
@@ -19,19 +19,21 @@ var STOP_MESSAGE = "Goodbye!";
 //TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-node-js-fact/data
 //=========================================================================================================================================
 var data = [
-    "A year on Mercury is just 88 days long.",
-    "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
-    "Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.",
-    "On Mars, the Sun appears about half the size as it does on Earth.",
-    "Earth is the only planet not named after a god.",
-    "Jupiter has the shortest day of all the planets.",
-    "The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.",
-    "The Sun contains 99.86% of the mass in the Solar System.",
-    "The Sun is an almost perfect sphere.",
-    "A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.",
-    "Saturn radiates two and a half times more energy into space than it receives from the sun.",
-    "The temperature inside the Sun can reach 15 million degrees Celsius.",
-    "The Moon is moving approximately 3.8 cm away from our planet every year."
+    "Evelyn has 96 nicknames, Booboo is her primary choice.",
+    "Finnian and Evelyn. Daddy is your Father.",
+    "Mummy and Daddy love each other very VERY much.",
+    "Finnian is the fastest human on earth. His top speed is 497km per hour.",
+    "Damascus is the 5th Morrison.",
+    "Mummy is by far the best cook and driver in the Morrison house. Her food is also very kind to animals.",
+    "The only thing better than a three quater Morrison family snuggle is a full family Morrison snuggle!",
+    "Finnian had the best birthday party ever for his 6th birthday.",
+    "We all love Bubba. Her favourite thing is when Evelyn plays with her hair and changes her clothing.",
+    "Bearly Bear is very cool. His favourite band is Grand Daddy and he likes to rock!",
+    "Finnian is a brilliant scientist. His experiments are usually fun and create all sorts of explosions and sticky goo!",
+    "Moondust is the fastest heap of junk in the galaxy.",
+    "Brekmust is the Morrison fambilys favourite meal. They eat all sorts of things in the morning from muesli to smoothies, toast and porridge.",
+    "Daddy is the Porridge King.",
+    "All Morrison family members know 'you must mind your surroundings'."
 ];
 
 //=========================================================================================================================================
